@@ -124,7 +124,7 @@ describe "Recipe App" do
         "ingredients" => "pumpkin, flour, butter, sugar",
         "cook_time" => "1 hour"
       }
-      post '/recipes', params
+      post '/recipes/new', params
       follow_redirect!
     end
 
